@@ -1,0 +1,6 @@
+summary: dynref demo plan
+
+discover:
+    how: fmf
+    url: "https://github.com/kkaarreell/dynref_test.git"
+

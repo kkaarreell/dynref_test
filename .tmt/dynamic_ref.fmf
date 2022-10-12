@@ -1,0 +1,11 @@
+environment:
+  DYNAMIC_REF: foo
+
+adjust:
+  - when: branch is defined
+    environment:
+        DYNAMIC_REF: $@{branch}
+    continue: false
+  - when: branch is not defined
+    environment:
+        DYNAMIC_REF: master
