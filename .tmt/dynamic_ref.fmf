@@ -8,4 +8,4 @@ adjust:
     continue: false
   - when: branch is not defined
     environment:
-        DYNAMIC_REF: master
+        DYNAMIC_REF: main
