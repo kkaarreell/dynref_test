@@ -6,6 +6,6 @@ adjust:
     environment:
         DYNAMIC_REF: $@{branch}
     continue: false
-  - when: branch is not defined
-    environment:
-        DYNAMIC_REF: main
+#  - when: branch is not defined
+#    environment:
+#        DYNAMIC_REF: main
